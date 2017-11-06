@@ -1,18 +1,25 @@
 /*
   	ISYS 320
-  	Name(s):
-  	Date: 
+  	Name(s):Jeremy Filler
+  	Date: 11/5/17
 */
 
 public class ComputePay {
 	public static void main(String[] args) {
-		System.out.println("My total hours worked:");
-		System.out.println(4 + 5 + 8 + 4);
+		double hoursworked;
+		double hourlysalary;
+		double totalpay;
 		
-		System.out.println("My hourly salary:");
-		System.out.println("$8.75");
+		hoursworked = (4+5+8+4);
+		hourlysalary = 8.75;
+		totalpay = hoursworked * hourlysalary;
 		
-		System.out.println("My total pay:");
-		System.out.println((4 + 5 + 8 + 4) * 8.75);
+		System.out.print( "My total hours worked are: ");
+		System.out.println(hoursworked);
+		System.out.print("My salary is $");
+		System.out.print(hourlysalary);
+		System.out.println(" per hour.");
+		System.out.print("My total pay is: $");
+		System.out.println(totalpay);
 	}
 }
